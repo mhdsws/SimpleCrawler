@@ -22,7 +22,7 @@
             <div>
                 The parsed table here: 
                 {% for item in tableHeaders %}
-                    {{ item.getText() }}
+                    {{ item.getHtml() | raw}}</br>
                 {% endfor %}
             </div>
             
