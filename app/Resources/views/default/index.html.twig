@@ -16,10 +16,6 @@
                 </p>
             </div>
             <div>
-               Fetching page Status Code: 
-                {{ status_code }}
-            </div>
-            <div>
                 The parsed table here: 
                 {% for item in tableHeaders %}
                     {{ item.getHtml() | raw}}</br>
